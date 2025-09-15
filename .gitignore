@@ -4,6 +4,9 @@ dist/
 
 .env
 
+mongo/
+postgres/
 node_modules/
 
 package-lock.json
+/src/generated/prisma
