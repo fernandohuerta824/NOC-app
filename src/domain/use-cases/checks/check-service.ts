@@ -29,7 +29,7 @@ export class CheckService implements ICheckService {
                 message: `Service ${url} is working`, 
                 level: LogSeverityLevel.low,
                 origin: 'check-service.ts'
-           })
+            })
             this.logRepostory.saveLog(log)
             this.successCallBack()
 

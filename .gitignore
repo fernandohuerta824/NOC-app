@@ -5,8 +5,11 @@ dist/
 .env
 
 mongo/
+mongo-test/
 postgres/
+postgres-test/
 node_modules/
+coverage/
 
 package-lock.json
 /src/generated/prisma

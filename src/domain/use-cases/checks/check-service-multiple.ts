@@ -33,7 +33,7 @@ export class CheckServiceMultiple implements ICheckServiceMultiple  {
                 message: `Service ${url} is working`, 
                 level: LogSeverityLevel.low,
                 origin: 'check-service.ts'
-           })
+            })
             this.callLogs(log)
             this.successCallBack()
 

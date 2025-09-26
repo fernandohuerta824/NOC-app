@@ -28,7 +28,13 @@ npm install
 docker compose -up d
 ```
 
-5. Levantar la app de modo de desarrollo
+5. Ejecutar las migracions de prisma
+
+```bash
+npx prisma migrate dev
+```
+
+6. Levantar la app de modo de desarrollo
 
 ```bash
 npm run dev

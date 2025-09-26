@@ -19,7 +19,7 @@ export class Server {
     static async start() {
         console.log('Server started...')
         
-        const url = 'http://localhost:3000/posts'
+/*         const url = 'http://localhost:3000/posts'
         const success = () => console.log(`${url} is ok at ${new Date().toISOString()}`)
         const error = (error: string) => console.log(error)
         const task = () => {
@@ -32,7 +32,7 @@ export class Server {
         CronService.createJob(
             '* * * * * *',
             task
-        )
+        ) */
 
     }
 }
